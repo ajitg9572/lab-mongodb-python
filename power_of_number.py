@@ -1,12 +1,19 @@
-def power_of_number():
-    num=int(input("Enter a number to power: "))
-    pw=2
+def power_number():
+    num1=int(input("Enter Number : "))
+
+    power=2
     result=1
-    while pw !=0:
-        result *=num
-        pw -=1
 
-    print("Power of given number" , result)
+    while power !=0:
+        result *= num1
+        power -=1
 
+    print(" Answer is :", result)
 
-power_of_number()
+power_number()
+
+    
+
+    
+
+    
